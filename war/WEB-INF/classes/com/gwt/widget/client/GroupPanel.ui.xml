@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.header{
+			background-color: #F5F5F5;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 5px;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0px;
+			padding:0px;
+		}
+		li{
+			display: list-item;
+			display: block;
+			height: 35px;
+			overflow: hidden;
+			position: relative;
+			margin-top:5px;
+			margin-left: 5px;
+		}
+	</ui:style>
+	<g:HTMLPanel width="100%" debugId="groupPanel">
+		<g:HTMLPanel ui:field="header" styleName="{style.header}"/>
+		<div>
+			<ul ui:field="unorderedListElement">
+			</ul>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 
