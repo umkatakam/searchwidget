@@ -1,0 +1,4 @@
+searchwidget
+============
+
+GWT search widget
